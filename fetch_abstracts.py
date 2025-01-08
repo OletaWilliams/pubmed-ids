@@ -50,8 +50,11 @@ def write_to_textfile(output_file, pmid, title, abstract_data):
         file.write(f"Abstract: {abstract_data}\n")
         file.write("="*50 + "\n")  # Divider between records
 
+#Function to fetch & write
+input_csv = 'INPUT_CSV_FILE_PATH' #File to read data
+
 def pubmed_abstracts(input_csv):
-    output_file = 'CSV_FILE_PATH' #File that you want to write to.
+    output_file = 'OUTPUT_CSV_FILE_PATH' #File that you want to write to.
     
     # Read the input CSV
     with open(input_csv, mode='r', newline='', encoding='utf-8') as csvfile:
