@@ -8,7 +8,7 @@ Given a CSV file containing PubMed IDs (PMIDs) and article titles, the script fe
 
 ### Motivation
 
-In evidence-based research and health technology assessment workflows, large volumes of references are often screened and reviewed. Manually retrieving abstracts can be time-consuming and error-prone.
+In evidence based research and health technology assessment workflows, large volumes of references are often screened and reviewed. Manually retrieving abstracts can be time consuming and error prone.
 
 This script was created as a lightweight solution to:
 - Automate abstract retrieval from PubMed
