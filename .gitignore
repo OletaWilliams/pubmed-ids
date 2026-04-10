@@ -115,11 +115,7 @@ dist/
 *.egg-info/
 
 # Data and output files
-data/
-outputs/
-results/
-*.csv
-*.txt
+
 
 # Database files
 *.db
